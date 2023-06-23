@@ -5,6 +5,9 @@ WORKDIR /usr/src/app
 
 COPY . /usr/src/app
 
+RUN pwd
+RUN ls
+
 EXPOSE 3000
 
 CMD ["npm install"]
