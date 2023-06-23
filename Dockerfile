@@ -10,7 +10,7 @@ RUN ls
 
 EXPOSE 3000
 
-CMD ["npm install"]
-CMD ["npm run dev"]
-CMD ["npm run build"]
+RUN npm install
+RUN npm run dev
+RUN npm run build
 CMD ["npm run start"]
