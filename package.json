@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "prepare": "husky install",
     "test": "jest && del-cli --force ./.swc"
   },
   "dependencies": {
