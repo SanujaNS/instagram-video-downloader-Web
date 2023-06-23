@@ -1,9 +1,10 @@
-FROM node:current-alpine3.18
+FROM node:latest
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-COPY . /usr/src/app
+COPY . .
+
 
 RUN pwd
 RUN ls
